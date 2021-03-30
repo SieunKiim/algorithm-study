@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    //nothig 잔디는 소중해
     int N;
     int array[] = {0};
     scanf("%d", &N);
