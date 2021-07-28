@@ -15,13 +15,13 @@ public class Q1655 {
                 try {
                     int num = Integer.parseInt(br.readLine());
                     arr[i] = num;
-                    for (int k = 0; k < i; k++) {
-                        if (arr[k] >= num) {
-                            int temp = arr[k];
-                            arr[k] = num;
-                            arr[k + 1] = temp;
-                        }
-                    }
+                    // for (int k = 0; k < i; k++) {
+                    // if (arr[k] >= num) {
+                    // int temp = arr[k];
+                    // arr[k] = num;
+                    // arr[k + 1] = temp;
+                    // }
+                    // }
 
                 } catch (IOException exception) {
                     System.out.print("wrong2");
